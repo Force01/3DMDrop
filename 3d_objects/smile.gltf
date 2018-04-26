@@ -1,0 +1,262 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0, 
+            "componentType" : 5123, 
+            "count" : 47616, 
+            "max" : [
+                8065
+            ], 
+            "min" : [
+                0
+            ], 
+            "type" : "SCALAR"
+        }, 
+        {
+            "bufferView" : 1, 
+            "componentType" : 5126, 
+            "count" : 8066, 
+            "max" : [
+                0.9965050220489502, 
+                0.6891999840736389, 
+                0.020510999485850334
+            ], 
+            "min" : [
+                -0.9789819717407227, 
+                -1.2862869501113892, 
+                -1.9763460159301758
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 2, 
+            "componentType" : 5126, 
+            "count" : 8066, 
+            "max" : [
+                0.99969482421875, 
+                0.99969482421875, 
+                1.0
+            ], 
+            "min" : [
+                -0.99969482421875, 
+                -0.99969482421875, 
+                -1.0
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 3, 
+            "componentType" : 5126, 
+            "count" : 8066, 
+            "max" : [
+                0.07280757278203964, 
+                0.9996960759162903, 
+                0.5460531115531921, 
+                1.0
+            ], 
+            "min" : [
+                -0.9999979138374329, 
+                -0.9972250461578369, 
+                -0.5047991871833801, 
+                1.0
+            ], 
+            "type" : "VEC4"
+        }, 
+        {
+            "bufferView" : 4, 
+            "componentType" : 5126, 
+            "count" : 8066, 
+            "max" : [
+                1.2489999532699585, 
+                1.2854999899864197
+            ], 
+            "min" : [
+                -0.24230000376701355, 
+                -0.14230000972747803
+            ], 
+            "type" : "VEC2"
+        }
+    ], 
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter", 
+        "version" : "2.0"
+    }, 
+    "bufferViews" : [
+        {
+            "buffer" : 0, 
+            "byteLength" : 95232, 
+            "byteOffset" : 0, 
+            "target" : 34963
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 96792, 
+            "byteOffset" : 95232, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 96792, 
+            "byteOffset" : 192024, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 129056, 
+            "byteOffset" : 288816, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 64528, 
+            "byteOffset" : 417872, 
+            "target" : 34962
+        }
+    ], 
+    "buffers" : [
+        {
+            "byteLength" : 482400, 
+            "uri" : "smile.bin"
+        }
+    ], 
+    "cameras" : [
+        {
+            "name" : "Camera", 
+            "perspective" : {
+                "aspectRatio" : 1.7777777777777777, 
+                "yfov" : 0.5033799372418416, 
+                "zfar" : 100.0, 
+                "znear" : 0.10000000149011612
+            }, 
+            "type" : "perspective"
+        }
+    ], 
+    "images" : [
+        {
+            "uri" : "far7an.png"
+        }
+    ], 
+    "materials" : [
+        {
+            "alphaMode" : "BLEND", 
+            "name" : "Material.001_far7an.jpg.001", 
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6399999856948853, 
+                    0.6399999856948853, 
+                    0.6399999856948853, 
+                    1.0
+                ], 
+                "baseColorTexture" : {
+                    "index" : 0
+                }, 
+                "metallicFactor" : 0.0
+            }
+        }
+    ], 
+    "meshes" : [
+        {
+            "name" : "Sphere.007", 
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2, 
+                        "POSITION" : 1, 
+                        "TANGENT" : 3, 
+                        "TEXCOORD_0" : 4
+                    }, 
+                    "indices" : 0, 
+                    "material" : 0
+                }
+            ]
+        }
+    ], 
+    "nodes" : [
+        {
+            "camera" : 0, 
+            "name" : "Correction_Camera", 
+            "rotation" : [
+                -0.7071067690849304, 
+                -0.0, 
+                0.0, 
+                0.7071067690849304
+            ]
+        }, 
+        {
+            "children" : [
+                0
+            ], 
+            "name" : "Camera", 
+            "rotation" : [
+                0.483536034822464, 
+                0.33687159419059753, 
+                -0.20870360732078552, 
+                0.7804827094078064
+            ], 
+            "translation" : [
+                8.459174156188965, 
+                5.213859558105469, 
+                4.4532599449157715
+            ]
+        }, 
+        {
+            "name" : "Lamp", 
+            "rotation" : [
+                0.16907575726509094, 
+                0.7558802962303162, 
+                -0.27217137813568115, 
+                0.570947527885437
+            ], 
+            "scale" : [
+                1.0, 
+                1.0, 
+                0.9999999403953552
+            ], 
+            "translation" : [
+                4.076245307922363, 
+                5.903861999511719, 
+                -1.0054539442062378
+            ]
+        }, 
+        {
+            "mesh" : 0, 
+            "name" : "Sphere.007", 
+            "rotation" : [
+                0.6949015855789185, 
+                -0.011884395033121109, 
+                0.0012380726402625442, 
+                0.7190055847167969
+            ], 
+            "scale" : [
+                0.9999999403953552, 
+                1.0, 
+                1.0
+            ], 
+            "translation" : [
+                -0.16509872674942017, 
+                0.0701550841331482, 
+                0.2873265743255615
+            ]
+        }
+    ], 
+    "samplers" : [
+        {}
+    ], 
+    "scene" : 0, 
+    "scenes" : [
+        {
+            "name" : "Scene", 
+            "nodes" : [
+                3, 
+                2, 
+                1
+            ]
+        }
+    ], 
+    "textures" : [
+        {
+            "sampler" : 0, 
+            "source" : 0
+        }
+    ]
+}
